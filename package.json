@@ -1,0 +1,25 @@
+{
+  "name": "codingapple",
+  "version": "1.0.0",
+  "description": "A coding problem a day keeps interview fear away\r Helps you pick a coding problem to solve for habit formation and practice.",
+  "main": "script.js",
+  "dependencies": {
+    "client": "^0.0.1",
+    "create-react-app": "^5.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "move": "npm build && rm -rf ../static && mv build/static ../static"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dips4982/CodingApple.git"
+  },
+  "author": "dips",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dips4982/CodingApple/issues"
+  },
+  "homepage": "https://github.com/dips4982/CodingApple#readme"
+}

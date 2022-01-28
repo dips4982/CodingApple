@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "CodingApple",
+  "version": "1.0",
+  "description": "A coding problem a day keeps interview fear away",
+  "icons": {
+    "128": "icon2.png"
+  },
+  "browser_action": {
+    "default_icon": "icon2.png",
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "storage",
+    "tabs",
+    "activeTab",
+    "contextMenus",
+    "webRequest",
+    "webRequestBlocking"
+  ]
+}
